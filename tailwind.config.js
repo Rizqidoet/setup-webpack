@@ -2,7 +2,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: {
-    enabled: true,
+    //enabled: true,
     content: ["./**/*.html", "./**/*.js"],
   },
   presets: [],
@@ -14,7 +14,7 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
       "2xl": "1536px",
-    },
+    }, 
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -23,9 +23,9 @@ module.exports = {
       white: colors.white,
       gray: colors.coolGray,
       red: colors.red,
-      yellow: colors.amber,
+      yellow: {...colors.amber, 200: "#ffa805"},
       green: colors.emerald,
-      blue: colors.blue,
+      blue: {...colors.blue, 100: "#9EFCFC", 200: "#56E3DB"},
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
@@ -380,7 +380,7 @@ module.exports = {
       "4/6": "66.666667%",
       "5/6": "83.333333%",
       full: "100%",
-      screen: "100vh",
+      screen: "90vh",
     }),
     inset: (theme, { negative }) => ({
       auto: "auto",
