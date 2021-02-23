@@ -28,8 +28,8 @@ module.exports = {
       blue: {...colors.blue, 100: "#9EFCFC", 200: "#56E3DB"},
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: colors.pink,
-    },
+      pink: {...colors.pink, 100: "#f7f0f4"}, 
+    }, 
     spacing: {
       px: "1px",
       0: "0px",
@@ -206,6 +206,9 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         "monospace",
+      ],
+      noto:[
+        "'Noto Sans JP', sans-serif"
       ],
     },
     fontSize: {
