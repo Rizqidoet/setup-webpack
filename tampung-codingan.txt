@@ -81,3 +81,26 @@
 			</div>
 		</div>
 		<!--End: Navbar-->
+
+
+<!--Start: Menu Website-->
+				<nav
+					class="hidden md:mr-auto md:ml-4 md:px-1 md:border-l md:border-blue-300 flex flex-wrap items-center text-base justify-center"
+				>
+					<a
+						href="#"
+						class="py-3 px-3 ml-2 text-center md:w-24 hover:bg-white rounded-lg transition duration-200 hover:shadow-xl hover:text-blue-300"
+						>Propil</a
+					>
+					<a
+						href="#"
+						class="py-3 px-3 ml-2 text-center md:w-24 hover:bg-white rounded-lg transition duration-200 hover:shadow-xl hover:text-blue-300"
+						>Portopolio</a
+					>
+					<a
+						href="#"
+						class="py-3 px-3 ml-2 text-center md:w-24 hover:bg-white rounded-lg transition duration-200 hover:shadow-xl hover:text-blue-300"
+						>Galeri</a
+					>
+				</nav>
+				<!--End: Menu Website-->
