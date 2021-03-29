@@ -1,54 +1,39 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-	<head>
-		<meta charset="utf-8" />
-		<title>Albetawi - CMS</title>
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<meta property="og:title" content="" />
-		<meta property="og:type" content="" />
-		<meta property="og:url" content="" />
-		<meta property="og:image" content="" />
+<head>
+    <meta charset="utf-8" />
+    <title>Albetawi - CMS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="manifest" href="site.webmanifest" />
-		<link
-			rel="apple-touch-icon"
-			href="../images/content/logo-albetawi-horizontal.png"
-		/>
-		<!-- Place favicon.ico in the root directory -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-		<link rel="stylesheet" href="./css/app.minify.css" />
-		<link rel="icon" href="images/content/favicon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="../images/content/logo-albetawi-horizontal.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-		<meta name="theme-color" content="#000" />
-	</head>
+    <link rel="stylesheet" href="./css/app.minify.css" />
+    <link rel="icon" href="images/content/favicon.png" />
 
-	<body>
-		<!-- Add your site or application content here -->
+    <meta name="theme-color" content="#000" />
+</head>
 
-		<!--Start: header-->
-		<header class="text-blue-300 bg-yellow-300">
-			<div
-				class="container mx-auto flex flex-wrap px-5 flex-col md:flex-row items-center"
-			>
-				<!--Start: Logo Website-->
-				<a
-					href="index.html"
-					class="flex title-font font-medium items-center text-blue-300 mb-4 md:mb-0"
-				>
-					<div
-						class="flex items-center md:h-28 md:w-28 py-4 w-48 md:ml-5"
-					>
-						<img
-							src="../images/content/logo-albetawi-horizontal.png"
-							alt="Logo Website"
-							class="object-cover object-center w-100 h-100"
-						/>
-					</div>
-					<span
-						class="ml-3 mr-4 text-xl hidden md:block text-white font-bold"
-						>Portal</span
+<body>
+    <!-- Add your site or application content here -->
+
+    <!--Start: header-->
+    <header class="text-blue-300 bg-yellow-300 px-4">
+        <div class="container mx-auto flex flex-wrap px-5 flex-col md:flex-row items-center">
+            <!--Start: Logo Website-->
+            <a href="index.html" class="flex title-font font-medium items-center text-blue-300 mb-4 md:mb-0">
+                <div class="flex items-center md:h-28 md:w-28 py-4 w-48 md:ml-5">
+                    <img src="../images/content/logo-albetawi-horizontal.png" alt="Logo Website" class="object-cover object-center w-100 h-100" />
+                </div>
+                <span class="ml-3 mr-4 text-xl hidden md:block text-white font-bold">Portal</span
 					>
 				</a>
 				<!--End: Logo Website-->
@@ -78,7 +63,7 @@
 				<!--Start: Button Masuk-->
 				<a
 					href="index.html"
-					class="w-full md:w-24 inline-flex justify-center items-center font-semibold text-white hover:text-blue-300 hover:bg-white text-base border-0 rounded md:py-3 px-3 h-10 focus:outline-none transition duration-200 hover:shadow-xl"
+					class="w-full md:w-24 inline-flex justify-center items-center font-semibold text-white hover:text-blue-300 hover:bg-white text-base border-0 rounded mb-3 md:py-3 px-3 h-10 focus:outline-none transition duration-200 hover:shadow-xl"
 				>
 					Keluar
 					<svg
@@ -99,14 +84,13 @@
 		<!--End: header-->
 
 		<!-- Start: Content-->
-		<section class="text-blue-300 body-font overflow-hidden">
-			<div class="container px-5 py-16 mx-auto">
+
+		<!--Start: Section Sumary-->
+		<section class="text-blue-300 body-font overflow-hidden px-4">
+			<div class="container px-5 py-10 mx-auto">
+				<img alt="ecommerce" class="flex-1 md:hidden block lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="../images/content/profile.png" />
+
 				<div class="lg:w-4/5 mx-auto flex flex-wrap">
-					<img
-						alt="ecommerce"
-						class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-						src="../images/content/profile.png"
-					/>
 					<div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
 						<h1
 							class="text-blue-300 text-3xl title-font font-medium mb-1"
@@ -121,10 +105,8 @@
 						<div class="flex mb-4">
 							<span class="flex items-center">
 								<span class="text-blue-300">@rizqidoet</span>
-							</span>
-							<span
-								class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s"
-							>
+                </span>
+                <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
 								<a class="text-blue-300">
 									<svg
 										fill="currentColor"
@@ -168,43 +150,247 @@
 									</svg>
 								</a>
 							</span>
-						</div>
-						<p class="leading-relaxed">
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem Ipsum has been the
-							industry's standard dummy text ever since the 1500s,
-							when an unknown printer took a galley of type and
-							scrambled it to make a type specimen book. It has
-							survived not only five centuries, but also the leap
-							into electronic typesetting, remaining essentially
-							unchanged. It was popularised in the 1960s with the
-							release of Letraset sheets containing Lorem Ipsum
-							passages, and more recently with desktop publishing
-							software like Aldus PageMaker including versions of
-							Lorem Ipsum.
-						</p>
-						<div
-							class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"
-						>
-							&nbsp;
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End: Content-->
+        </div>
+        <p class="leading-relaxed">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+            &nbsp;
+        </div>
+        </div>
 
-		<!--Start: footter-->
-		<footer class="">
-			<div class="bg-yellow-300">
-				<div
-					class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col"
-				>
-					<a
-						class="flex title-font font-medium items-center md:justify-start justify-center text-white"
-					>
-						<span class="ml-3 font-bold text-xl text-white"
-							>Portal Portofolio</span
+        <img alt="ecommerce" class="flex-1 md:block hidden lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="../images/content/profile.png" />
+
+        </div>
+        </div>
+        </section>
+        <!--End: Section Sumary-->
+
+        <!--Start: Section Education-->
+        <section class="text-blue-300 body-font px-4 mb-10">
+            <div class="container mx-auto">
+                <div class="flex flex-col text-center w-full">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-300">Education</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">latar Belakang pendidikan gue :</p>
+                </div>
+            </div>
+            <div class="container py-10 mx-auto flex flex-wrap">
+                <div class="flex relative py-7 sm:items-center md:w-2/3 mx-auto">
+                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                    </div>
+                    <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+					  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+					</svg>
+                        </div>
+                        <div class="flex-grow w-80 md:w-auto sm:pl-6 mt-6 sm:mt-0">
+                            <h2 class="font-medium title-font text-blue-300 mb-1 text-xl">SDN 01 Balekambang</h2>
+                            <p class="leading-relaxed">Tahun 2002 - Tahun 2008</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex relative py-7 sm:items-center md:w-2/3 mx-auto">
+                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                    </div>
+                    <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+					  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+					</svg>
+                        </div>
+                        <div class="flex-grow w-80 md:w-auto sm:pl-6 mt-6 sm:mt-0">
+                            <h2 class="font-medium title-font text-blue-300 mb-1 text-xl">SMPN 126 Jakarta</h2>
+                            <p class="leading-relaxed">Tahun 2008 - Tahun 2011</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex relative py-7 sm:items-center md:w-2/3 mx-auto">
+                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                    </div>
+                    <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+					  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+					</svg>
+                        </div>
+                        <div class="flex-grow w-80 md:w-auto sm:pl-6 mt-6 sm:mt-0">
+                            <h2 class="font-medium title-font text-blue-300 mb-1 text-xl">SMKN 10 Jakarta</h2>
+                            <p class="leading-relaxed">Tahun 2011 - Tahun 2014 | Kejuruan Rekayasa Perangkat Lunak</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex relative py-7 sm:items-center md:w-2/3 mx-auto">
+                    <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                    </div>
+                    <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                    <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+					  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+					</svg>
+                        </div>
+                        <div class="flex-grow w-80 md:w-auto sm:pl-6 mt-6 sm:mt-0">
+                            <h2 class="font-medium title-font text-blue-300 mb-1 text-xl">Universitas Indraprasta PGRI</h2>
+                            <p class="leading-relaxed">Tahun 2014 - Tahun 2018 | Kejuruan Teknik Informatika</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End: Section Education-->
+
+        <!--Start: Section Experiences-->
+        <section class="text-blue-300 bg-gray-50 body-font overflow-hidden px-4 mb-10">
+            <div class="container mx-auto px-10">
+                <div class="flex flex-col text-center w-full pt-10">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-300">Experiences</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Beberapa pengalaman kerja yang pernah gua lakuin :</p>
+                </div>
+            </div>
+            <div class="container px-16 py-10 mx-auto">
+                <div class="-my-8 divide-y-2 divide-gray-100">
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                            <span class="font-semibold title-font text-gray-700">Periode</span>
+                            <span class="mt-1 text-gray-500 text-sm">Januari - Maret 2013</span>
+                        </div>
+                        <div class="md:flex-grow">
+                            <h2 class="text-2xl font-medium text-blue-300 title-font mb-2">PT Indosat Mega Media | Magang</h2>
+                            <p class="leading-relaxed">
+                                Disini gua masih jadi anak magang dengan jobdesk mengisi langitude dan latitude google maps project indosat M2
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                            <span class="font-semibold title-font text-gray-700">Periode</span>
+                            <span class="mt-1 text-gray-500 text-sm">Juli - Desember 2014</span>
+                        </div>
+                        <div class="md:flex-grow">
+                            <h2 class="text-2xl font-medium text-blue-300 title-font mb-2">Team TDKreasi | Pegawai</h2>
+                            <p class="leading-relaxed">
+                                Disini gua udah jadi pegawai part-time dan menjabat sebagai Staff-IT dengan jobdesk mengerjakan aplikasi berbasis web
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                            <span class="font-semibold title-font text-gray-700">Periode</span>
+                            <span class="text-sm text-gray-500">Februari - Maret 2018</span>
+                        </div>
+                        <div class="md:flex-grow">
+                            <h2 class="text-2xl font-medium text-blue-300 title-font mb-2">Badan Narkotika Nasional | Magang</h2>
+                            <p class="leading-relaxed">
+                                Disini gua masih jadi anak magang dengan project pembuatan portal pendaftaran anak yang mau magang di BNN berbasis WEB
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                            <span class="font-semibold title-font text-gray-700">Periode</span>
+                            <span class="text-sm text-gray-500">November 2018 - Desember 2020</span>
+                        </div>
+                        <div class="md:flex-grow">
+                            <h2 class="text-2xl font-medium text-blue-300 title-font mb-2">PT Global Digital Niaga Blibli.com | Pegawai</h2>
+                            <p class="leading-relaxed">
+                                Disini gua udah jadi pegawai full-time sebagai operator gudang
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End: Section Experiences-->
+
+        <!--Start: Skills-->
+        <section class="text-blue-300 body-font px-4 mb-10">
+            <div class="container px-5 mx-auto">
+                <div class="text-center mb-5">
+                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-300 mb-4">Skills</h1>
+                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Beberapa skill yang masih gua pelajarin sampe sekarang :</p>
+                </div>
+                <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                    <div class="p-2 sm:w-1/2 w-full">
+                        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+					  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					  <path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+                            <span class="title-font font-medium">Designer Zeplin</span>
+                        </div>
+                    </div>
+                    <div class="p-2 sm:w-1/2 w-full">
+                        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+					  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					  <path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+                            <span class="title-font font-medium">Designer Figma</span>
+                        </div>
+                    </div>
+                    <div class="p-2 sm:w-1/2 w-full">
+                        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+					  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					  <path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+                            <span class="title-font font-medium">Framework Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="p-2 sm:w-1/2 w-full">
+                        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+					  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					  <path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+                            <span class="title-font font-medium">Framework Bootstrap CSS</span>
+                        </div>
+                    </div>
+                    <div class="p-2 sm:w-1/2 w-full">
+                        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+					  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					  <path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+                            <span class="title-font font-medium">Framework laravel</span>
+                        </div>
+                    </div>
+                    <div class="p-2 sm:w-1/2 w-full">
+                        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+					  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+					  <path d="M22 4L12 14.01l-3-3"></path>
+					</svg>
+                            <span class="title-font font-medium">PHP 8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End: Skills-->
+
+        <!-- End: Content-->
+
+        <!--Start: footter-->
+        <footer class="">
+            <div class="bg-yellow-300 px-4">
+                <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                        <span class="ml-3 font-bold text-xl text-white">Portal Portofolio</span
 						>
 					</a>
 					<p class="text-sm text-white sm:ml-6 sm:mt-0 mt-4">
@@ -294,26 +480,24 @@
 							</svg>
 						</a>
 					</span>
-				</div>
-			</div>
-		</footer>
-		<!--End: footter-->
+                </div>
+            </div>
+        </footer>
+        <!--End: footter-->
 
-		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-		<script>
-			window.ga = function () {
-				ga.q.push(arguments);
-			};
-			ga.q = [];
-			ga.l = +new Date();
-			ga('create', 'UA-XXXXX-Y', 'auto');
-			ga('set', 'anonymizeIp', true);
-			ga('set', 'transport', 'beacon');
-			ga('send', 'pageview');
-		</script>
-		<script
-			src="https://www.google-analytics.com/analytics.js"
-			async
-		></script>
-	</body>
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga = function() {
+                ga.q.push(arguments);
+            };
+            ga.q = [];
+            ga.l = +new Date();
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('set', 'transport', 'beacon');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
